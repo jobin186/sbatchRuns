@@ -1,0 +1,15 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2017 The MathWorks, Inc.
+                   R2017b (9.3.0.713579) 64-bit (glnxa64)
+                             September 14, 2017
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+Your output will appear at /home/jobinkv/CB55_models/rcnn
+The data path location is /tmp/CB55
+The current setup is already computed please check folder /home/jobinkv/CB55_models/rcnn
+mAP train: 92.8, test: 92.4
