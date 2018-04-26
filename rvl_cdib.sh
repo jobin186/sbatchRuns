@@ -29,9 +29,11 @@ echo "$(pwd)"
 echo "$(ls ./labels/)"
 echo "$(du -sh ./rvl-cdip.tar.gz)"
 echo 'all is well'
+cp ./images/imagesv/v/y/m/vym16d00/50608490-8490.tif ./images/imagese/e/j/e/eje42e00/2500126531_2500126536.tif
+du -sh ./images/imagese/e/j/e/eje42e00/2500126531_2500126536.tif
 module add cuda/8.0
 module add cudnn/7-cuda-8.0
 module add matlab/R2017b
-cd /home/jobinkv/rvl_imageClassification
-#matlab -nodesktop -nosplash -singleCompThread -r "main_v2('CB55')"
-matlab -nodesktop -nosplash -singleCompThread -r "mainv3"
+cd /home/jobinkv/rvlImgClassification_v1
+matlab -nodesktop -nosplash -singleCompThread -r "mainCbd"
+
